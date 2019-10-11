@@ -1,0 +1,235 @@
+
+
+&nbsp;
+hàm chan tu dong loading trang
+=====================================|
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+
+========================================|
+web tu thiet ke logo 
+========================================|
+=>>https://studio.tailorbrands.com
+
+==========================|
+trang bieu do https://www.chartjs.org/
+==========================|
+github
+==========================|
+git:
+git checkout -b tai.
+git status
+git add .
+git commit -m "up"
+git pull origin master
+git push origin tai
+
+
+
+
+kiem tra kho luu tru :
+git remote -v
+khoi tao git cho project moi:
+git init
+them remote cho project moi:
+git remote add origin link_cua_remote
+git commit -m tai 
+git push origin tai
+
+
+============================||
+form all login and register :
+https://bootsnipp.com/snippets/92gmX
+
+===========================|
+
+tao nut tim kiem:
+
+https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_filters_table&stacked=h
+=========================|
+modal -> w3school --> tao from dang ki an hien
+=========================|
+web hieu ung dep https://codepen.io/rlo206/pen/oxEKme/
+============================||
+pulgin messenger chat icon :
+https://www.youtube.com/watch?v=zne400tXSiY||
+=========================================||
+coment facebok vao trang web : http://www.nguyentrongtho.com/2013/10/cach-nhung-facebook-comment-vao-website.html
+============================================||
+sever
+admin@103.101.168.88
+talentwins@
+==========================||
+  .my-menu{
+    display: flex;
+    justify-content: center;
+  }
+============================||
+web ngon : https://bootsnipp.com/snippets/NjR9z
+============================||
+trang-nguoi dung;
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_social&stacked=h
+==============================||
+trang the giu facebook:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_social_bar
+===============================||
+thuoc tinh chia layout colum :: 2 hang
+   <div class="skill-language">
+          <img src="https://codelearn.io/Themes/TheCodeCamppro/assets/languages/Python.svg" alt="">
+              <div class="rate-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+      </div>
+<style>
+
+.skill-language {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+</style>
+======================================||
+chuyen doi da ngon ngu:
+Multiple languages using Jquery and Json
+
+https://www.youtube.com/watch?v=Tjt_u_OSh40
+========================================||
+icon - dep  : https://mngspx.github.io/font-fa/
+
+ 
+=======================================||
+laravel :: tao login :
+php artisan make:auth
+=======================================||
+chay bang trong laravel
+php artisan migrate
+=====================================||
+phan quyen trong laravel doc gates trong larvel
+
+======================================||
+laravel
+https://allaravel.com/blog/laravel-authentication-xac-thuc-nguoi-dung-that-don-gian
+
+===========================================||
+web room -> room
+
+:https://www.elevateweb.co.uk/image-zoom/examples/#basic-zoom
+================================|
+
+web xem chi tiet anh :
+https://bootsnipp.com/snippets/P2gor
+
+
+web bootrap ->===========================||
+
+https://mdbootstrap.com/docs/jquery/navigation/compositions/
+https://startbootstrap.com/snippets/
+https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php
+https://hackerthemes.com/bootstrap-cheatsheet/#justify-content-around
+
+=====================================||
+ham lui thoi gian
+How To Create a Countdown Timer.
+===================================||
+ham lui thoi gian :
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+p {
+  text-align: center;
+  font-size: 50%;
+  margin-top: 0px;
+  color: #ff0000;
+}
+</style>
+</head>
+<body>
+
+<p class="demo"></p>
+<p class="demo"></p>
+<p class="demo"></p>
+
+
+
+<script>
+// var countDownDate = new Date("september 14, 2019 11:29:12").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   var hienthi = document.querySelectorAll('.demo');
+//   console.log(hienthi);
+//   for(var i = 0; i< hienthi.length;i++){
+//     hienthi[i].innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   }
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.querySelectorAll('.demo').innerHTML = "EXPIRED";
+
+//   }
+// }, 1000);
+var countDownDate = new Date("Jan 5, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var hienthi = document.getElementsByClassName('demo');
+   for(var i = 0; i< hienthi.length ;i++){
+     hienthi[i].innerHTML = days + "Ngay" + hours + " Gio "
+    + minutes + "phut" + seconds + "Giay";
+  }
+  if (distance < 0) {
+    clearInterval(x);
+    for(var i = 0; i< hienthi.length;i++){
+    hienthi[i].innerHTML ="EXPIRED";
+  }
+
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
+
+================================================||
+web travel moblie :
+https://drive.google.com/file/d/1DDF1lEAnZ0zoYnr7sg9CIPgkw6oi2EkT/view
+=======================================================||
+tat debug in laravel:
+laravel debugbar turn off production = google
+=======================================================||
+backgorund nhieu mau nen :
+https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm||
+=====================================================||
+huong dan lam ckeditor:
+https://drive.google.com/file/d/1ciZQTqY-4cm0Mxr2hUKVrebYQ2BZT2po/view?usp=sharing
+
